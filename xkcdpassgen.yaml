@@ -1,15 +1,16 @@
-name: xkcdpassgen
+name: xkcdpass
 version: 1.0
-summary: xkcd password generator snap
+summary: xkcd password generator
+description: Generate secure multiword passwords/passphrases, inspired by XKCD
+
 grade: devel
-confinement: devmode
+confinement: strict
 
 apps:
-    xkcdpass:
-        command: bin/xkcdpass
-parts:
+  xkcdpass:
+    command: bin/xkcdpass
 
-        xkcdpassgen:
-            plugin: python3
-            source: https://github.com/redacted/XKCD-password-generator.git
-            source-type: git
+parts:
+  xkcdpassgen:
+    plugin: python
+    source: https://github.com/redacted/XKCD-password-generator.git
