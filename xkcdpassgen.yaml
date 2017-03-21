@@ -11,5 +11,5 @@ parts:
 
         xkcdpassgen:
             plugin: python3
-	    source: https://github.com/redacted/XKCD-password-generator.git
+            source: https://github.com/redacted/XKCD-password-generator.git
             source-type: git
