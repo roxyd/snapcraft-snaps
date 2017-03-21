@@ -5,11 +5,11 @@ grade: devel
 confinement: devmode
 
 apps:
-	xkcdpass:
-		command: bin/xkcdpass
+    xkcdpass:
+        command: bin/xkcdpass
 parts:
 
-	xkcdpassgen:
-		plugin: python3
-		source: https://github.com/redacted/XKCD-password-generator.git
-		source-type: git
+        xkcdpassgen:
+            plugin: python3
+	    source: https://github.com/redacted/XKCD-password-generator.git
+            source-type: git
