@@ -1,2 +1,2 @@
 # snapcraft-snaps
-this is me trying to make some snappy snaps snapcrafts
+For more information on snaps, visit https://tutorials.ubuntu.com/tutorial/create-first-snap#0 where you can also learn how to create your own!
