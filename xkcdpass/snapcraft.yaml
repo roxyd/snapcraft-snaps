@@ -3,7 +3,7 @@ version: 1.0
 summary: xkcd password generator
 description: Generate secure multiword passwords/passphrases, inspired by XKCD
 
-grade: devel
+grade: stable
 confinement: strict
 
 apps:
